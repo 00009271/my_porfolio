@@ -1,0 +1,77 @@
+
+a{
+    text-decoration: none;
+}
+.some{
+    display: flex;
+    width: 100%;
+}
+.navlink{
+    color: #1F2431;
+    font-family: Montserrat, sans-serif;
+}
+.section1{
+    height: 80vh;
+}
+.createBtn{
+    background-color: #315EFB;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+.cst{
+    margin: 15px  7.5px;
+    background-color: #FAFCFF;
+
+}
+.cst-col{
+    padding: 0;
+}
+h3, h2, h4{
+    font-family: Montserrat, sans-serif; 
+    color: #1F2431; 
+    font-weight: 700;
+}
+p, li{
+    font-family: Montserrat, sans-serif;
+    color: #82899B ;
+    font-weight: 300 ;
+}
+
+
+
+
+.contacts:first-child{
+    text-align: left;
+}
+.contacts ul{
+    padding-left: 0;
+    list-style: none;
+} 
+.cform{
+    display: flex;
+    justify-content: flex-start;
+}
+.cbtn{
+    background-color: #315EFB;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border-radius:  0 10px  10px 0;
+}
+input{
+    border: 2px solid #82899B;
+    border-radius: 10px 0 0 10px;
+    padding-left: 5px;
+    font-family:  Montserrat, sans-serif ;
+}
+@media(max-width: 425px){
+    .navBrand{
+        width: 180px;
+    }
+    .footerSection{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
